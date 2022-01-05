@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/about.css" type="text/css">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>  
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> 
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
     <title>KKM</title>
 </head>
@@ -14,7 +17,7 @@
    
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-          <a id="logo-container" ="brand-logo">
+          <a id="logo-container" = "brand-logo">
              <img clas ="logo" href = "g3.jpeg">
     
           </a>
@@ -25,7 +28,9 @@
           </ul>
     
           <ul id="nav-mobile" class="sidenav">
-            <li><a href="#">Navbar Link</a></li>
+            <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="#">Contact</a></li>
           </ul>
           <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
@@ -33,12 +38,29 @@
    
    
     <div class="artikel">
-        <h2>Tentang kita
-
-        </h2>
+        <h2>Our activity </h2>
         
-        <img class ="gambar"src="g3.jpeg" alt="gambar">
+
+        <div class="container1" id="kotak" data-aos="fade-right" data-aos-duration="3000">
+          <video controls >
+                <source src="video/20211229_1080p_8.mp4" type="video/webm"> 
+          </video>           
+
+          <p>Peresmian kegiatan KKM-2021</p>
+        </div>
+        
        
-    </div>
-</body>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    
+
+
+    </body>
 </html>
