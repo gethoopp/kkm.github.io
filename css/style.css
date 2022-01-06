@@ -55,3 +55,24 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.gambar1 img{
+  width: 7rem;
+  margin-left: -28rem;
+}
+
+#gambar1 {
+  margin-top: 0px;
+  position: absolute;
+  margin-left: -23rem;
+  width: 15rem;
+}
+
+
+.gambar2 img {
+  width: 15rem;
+}
+
+.gambar3 img {
+  width: 2px;
+}
