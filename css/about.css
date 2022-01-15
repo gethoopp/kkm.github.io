@@ -47,16 +47,18 @@
 
     @media (min-width : 300px) and (max-width : 600px ) {
         .videoku {
-            margin-left: 29rem;
-            margin-top: -3rem;
+            margin-left: 2rem;
+            margin-top: 13rem;
         }
    
         .teksku {
-            margin-left: 24rem;
+            margin-left: 8rem;
             font-size: 12px;
 
         }
     
-   
+       .teks {
+           margin-left: 6rem;
+       }
    
     }
